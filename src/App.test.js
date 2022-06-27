@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('postsapi crud operations text', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  const linkElement = screen.getByText(/POSTSAPI CRUD OPERATIONS/i);
   expect(linkElement).toBeInTheDocument();
 });
